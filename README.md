@@ -54,8 +54,8 @@ ChefAssist is an AI chatbot designed to serve as a customer service agent for Cu
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/harshit433/NLP-Chatbot-Cantilever.git
+   cd NLP-Chatbot-Cantilever
    ```
 
 2. **Install Dependencies**
