@@ -3,7 +3,8 @@
 ChefAssist is an AI chatbot designed to serve as a customer service agent for Culinary Haven. The chatbot responds to customer queries regarding various aspects of the restaurant, such as the name of the chatbot, the name of the restaurant, timings, menu, accessibility, parking, items, payment modes, and more.
 
 ## ScreenShot
-![Screenshot 2024-07-28 225602](https://github.com/user-attachments/assets/3689f7ce-df2e-47cd-9a59-4c6c3f2d17d5)
+![Screenshot 2024-07-28 232148](https://github.com/user-attachments/assets/be55f936-1fa4-4bc3-a691-5d612f3753cc)
+
 
 
 ## Project Directory Structure
