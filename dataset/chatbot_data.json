@@ -1,0 +1,723 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Is there anything I can help you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Nice Meeting you, hope I see you back soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!",
+                    "Any time!",
+                    "My pleasure",
+                    "Never mention, I am more thankful you contacted us.",
+                    "Sure! You can contact us anytime."
+                    ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What can I get from you?",
+        "What is avaiable?",
+        "What is on the menu?"
+      ],
+      "responses": [
+        "We sell both veg and chicken pizzas.",
+        "You can get veg and finger licking chicken pizzas.",
+        "If you are non-veg we can deliver you chicken pizza if not veg pizza is also on the menu."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept paytm?",
+        "Can I pay with googlepay?",
+        "Are you cash only?",
+        "Do you accept online payment.",
+        "Can I order pay on delivery"
+      ],
+      "responses": [
+        "We accept paytm, googlepay and COD",
+        "You either paytm and googlepay us or can pay in cash",
+        "If you don't use online payment method you can pay us in cash, and if you do you may paytm or googlepay us.",
+        "For customers convinience we accept paytm, googlepay and cash."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Can you deliver the pizzas?",
+        "Do you make delivery?",
+        "Is delivery avaiable?"
+      ],
+      "responses": [
+        "We deliver on every doorsteps",
+        "Of course! We would be glad to deliver it to your address.",
+        "We deliver 24/7 in every places all over India."
+      ]
+    },
+    {
+      "tag": "special",
+      "patterns": [
+        "What is special on the menu?",
+        "Do you have any special?",
+        "What do you recommend?",
+        "What's todays special?",
+        "Recommend me special Pizza?"
+      ],
+      "responses": [
+        "As per costumer reviews we recommend you to try New York Chicken Pizza.",
+        "New York Chicken Pizza is liked by most of the costumers.",
+        "You definitely should try New York Chicken Pizza.",
+        "You will never regret trying New York Chicken Pizza."
+      ]
+    },
+    {
+      "tag": "veg_cost",
+      "patterns": [
+        "How much does veg pizza cost?",
+        "Can I know the price of veg pizza?",
+        "I much do I pay for veg pizza?",
+        "What is the cost of veg pizza?",
+        "What is the price of veg pizza?"
+      ],
+      "responses": [
+        "It is Rs.299 for Small Rs.399 for Medium and Rs.449 for Large.",
+        "You can get small for Rs.299, Medium for Rs.399 and Large for Rs.449.",
+        "The prices are Small-Rs.299,Medium-Rs.399 and Large-Rs.449."
+      ]
+    },
+     {
+      "tag": "chicken_cost",
+      "patterns": [
+        "How much does chicken pizza cost?",
+        "Can I know the price of chicken pizza?",
+        "I much do I pay for chicken pizza?",
+        "What is the cost of chicken pizza?",
+        "What is the price of chicken pizza?"
+      ],
+      "responses": [
+        "It is Rs.349 for Small Rs.449 for Medium and Rs.549 for Large.",
+        "You can get small for Rs.349, Medium for Rs.449 and Large for Rs.549.",
+        "The prices are Small-Rs.349,Medium-Rs.449 and Large-Rs.549."
+      ]
+    },
+    {
+      "tag": "reservation",
+      "patterns": [
+        "I want to book a table",
+        "Reserve a table for two",
+        "Can I make a reservation for tomorrow night?",
+        "Book a table for tonight",
+        "Table reservation",
+        "Can I reserve a table for five?",
+        "I need to book a table",
+        "How can I make a reservation?",
+        "I want to book a table for lunch",
+        "Can I reserve a table online?"
+      ],
+      "responses": [
+        "Sure, how many people will be joining?",
+        "For what date and time would you like to make the reservation?",
+        "Can I have your name and contact number to confirm the reservation?",
+        "Your table has been reserved. We look forward to seeing you!",
+        "We have reserved your table. Thank you!",
+        "Please provide the details for your reservation.",
+        "Your reservation is confirmed. Enjoy your meal!",
+        "We have booked your table. See you soon!",
+        "Your table reservation is successful.",
+        "Thank you for booking with us. Your table is reserved."
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "Show me the menu",
+        "What dishes do you have?",
+        "Do you have a vegan menu?",
+        "What's on the menu?",
+        "Can I see the menu?",
+        "What's today's special?",
+        "Do you have any desserts?",
+        "What drinks do you serve?"
+      ],
+      "responses": [
+        "Here's our menu: Bruschetta, Stuffed Mushrooms,Garlic Bread, Caesar Salad,Soup of the Day, Margherita Pizza,Spaghetti Carbonara,Grilled Salmon,Chicken Alfredo,Vegetable Stir Fry, Tiramisu,Chocolate Lava Cake,Cheesecake,Ice Cream Sundae,Fruit Salad, Coca Cola,Fresh Lemonade,Iced Tea,Espresso,Red Wine",
+        "We have a variety of dishes including vegan options. Here's the menu: Bruschetta, Stuffed Mushrooms,Garlic Bread, Caesar Salad,Soup of the Day, Margherita Pizza,Spaghetti Carbonara,Grilled Salmon,Chicken Alfredo,Vegetable Stir Fry, Tiramisu,Chocolate Lava Cake,Cheesecake,Ice Cream Sundae,Fruit Salad, Coca Cola,Fresh Lemonade,Iced Tea,Espresso,Red Wine",
+        "You can check out our menu here: Bruschetta, Stuffed Mushrooms,Garlic Bread, Caesar Salad,Soup of the Day, Margherita Pizza,Spaghetti Carbonara,Grilled Salmon,Chicken Alfredo,Vegetable Stir Fry, Tiramisu,Chocolate Lava Cake,Cheesecake,Ice Cream Sundae,Fruit Salad, Coca Cola,Fresh Lemonade,Iced Tea,Espresso,Red Wine",
+        "Our menu includes a wide range of dishes. You can view it here: Bruschetta, Stuffed Mushrooms,Garlic Bread, Caesar Salad,Soup of the Day, Margherita Pizza,Spaghetti Carbonara,Grilled Salmon,Chicken Alfredo,Vegetable Stir Fry, Tiramisu,Chocolate Lava Cake,Cheesecake,Ice Cream Sundae,Fruit Salad",
+        "Today's special is available on our menu. Check it out here: Soup of the Day",
+        "Yes, we have a selection of desserts. Here's the menu: Tiramisu,Chocolate Lava Cake,Cheesecake,Ice Cream Sundae,Fruit Salad",
+        "We serve a variety of drinks. Check them out here:  Coca Cola,Fresh Lemonade,Iced Tea,Espresso,Red Wine"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "What is the status of my order?",
+        "Where is my delivery?",
+        "How long will my order take?",
+        "Order status",
+        "Track my order",
+        "Is my order on the way?",
+        "Can you check my order status?",
+        "When will my food arrive?",
+        "How much longer for my order?",
+        "I need an update on my order"
+      ],
+      "responses": [
+        "Your order is on its way and should arrive shortly.",
+        "Your order is being prepared. It will be delivered soon.",
+        "Let me check the status for you... Your order is expected to arrive in 20 minutes.",
+        "Your order has been dispatched and is en route to your location.",
+        "We are preparing your order. It will be delivered shortly.",
+        "Your order is out for delivery.",
+        "We are currently working on your order.",
+        "Your order will arrive soon.",
+        "Your order is almost ready.",
+        "Your order status is updated. It will be there shortly."
+      ]
+    },
+    {
+      "tag": "opening_hours",
+      "patterns": [
+        "What are your opening hours?",
+        "When do you open?",
+        "Are you open on weekends?",
+        "Opening hours",
+        "When do you close?",
+        "What time do you open?",
+        "What are your hours of operation?",
+        "Is the restaurant open now?",
+        "What are your business hours?",
+        "When does the restaurant close?"
+      ],
+      "responses": [
+        "We are open from 9 AM to 10 PM every day.",
+        "Our opening hours are 9 AM to 10 PM, Monday to Sunday.",
+        "Yes, we are open on weekends from 9 AM to 10 PM.",
+        "We are open daily from 9 AM to 10 PM.",
+        "Our hours of operation are from 9 AM to 10 PM.",
+        "We open at 9 AM and close at 10 PM.",
+        "The restaurant is open from 9 AM to 10 PM.",
+        "Our business hours are 9 AM to 10 PM.",
+        "The restaurant opens at 9 AM and closes at 10 PM.",
+        "We operate from 9 AM to 10 PM every day."
+      ]
+    },
+    {
+      "tag": "cancellation",
+      "patterns": [
+        "I want to cancel my order",
+        "Can I cancel my reservation?",
+        "How do I cancel my delivery?",
+        "Cancel my order",
+        "Order cancellation",
+        "I need to cancel my reservation",
+        "How can I cancel my order?",
+        "Can I get a refund for my order?",
+        "Cancel my booking",
+        "I want to cancel my table reservation"
+      ],
+      "responses": [
+        "Your order has been canceled. We hope to serve you again soon.",
+        "Your reservation has been canceled. If you need any further assistance, please let us know.",
+        "To cancel your delivery, please provide your order number.",
+        "We have processed your cancellation. Thank you for letting us know.",
+        "Your order cancellation is confirmed.",
+        "Your reservation has been successfully canceled.",
+        "We have canceled your order as requested.",
+        "Your order has been canceled. A refund will be processed soon.",
+        "Your booking has been canceled. Thank you for informing us.",
+        "Your table reservation has been canceled."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I have a complaint",
+        "The food was cold",
+        "I am not happy with my order",
+        "Bad service",
+        "I want to file a complaint",
+        "I received the wrong order",
+        "My delivery is late",
+        "The food quality was poor",
+        "I want to speak to a manager",
+        "There was an issue with my order"
+      ],
+      "responses": [
+        "We're sorry to hear that. Can you please provide more details about the issue?",
+        "We apologize for the inconvenience. Please share your order details so we can address this.",
+        "Your feedback is important to us. We will look into this matter immediately.",
+        "We regret the experience you had. Please provide more information so we can resolve it.",
+        "Thank you for bringing this to our attention. We will address it promptly.",
+        "We apologize for the issue. We will work to resolve it as soon as possible.",
+        "Your complaint has been noted. We will take the necessary actions.",
+        "We are sorry for the inconvenience caused. Please let us know how we can make it right.",
+        "Thank you for your feedback. We will strive to improve our service.",
+        "We will investigate this issue and get back to you shortly."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "I want to give feedback",
+        "How was your experience?",
+        "Rate our service",
+        "Provide feedback",
+        "Leave a review",
+        "Can I give feedback?",
+        "How can I leave a review?",
+        "I'd like to share my experience",
+        "Can I rate the restaurant?",
+        "I have some feedback"
+      ],
+      "responses": [
+        "We'd love to hear your feedback. Please share your thoughts with us.",
+        "Thank you for taking the time to provide feedback. How was your experience?",
+        "Your feedback is valuable to us. Please let us know how we did.",
+        "We appreciate your review. Please share your experience with us.",
+        "Thank you for your feedback. We are always looking to improve.",
+        "Please leave your feedback here: [link to feedback form]",
+        "We value your opinion. Share your feedback with us.",
+        "Your feedback helps us improve. Thank you for sharing.",
+        "We'd love to know how we did. Please provide your feedback.",
+        "Thank you for your review. We will use it to improve our service."
+      ]
+    },
+    {
+      "tag": "promotion",
+      "patterns": [
+        "Do you have any discounts?",
+        "What are your current promotions?",
+        "Any special offers today?",
+        "Current deals",
+        "Promotions",
+        "Are there any discounts available?",
+        "What are the latest offers?",
+        "Do you have any deals right now?",
+        "Any promotions this week?",
+        "What discounts can I get?"
+      ],
+      "responses": [
+        "We currently have a 20% discount on all orders above $50.",
+        "Today's special offer is a free dessert with every main course.",
+        "Check out our latest promotions here: [link to promotions]",
+        "We have several ongoing deals. Please visit our promotions page: [link to promotions]",
+        "We have discounts available. Check them out here: [link to promotions]",
+        "Today's deals include a 10% discount on all appetizers.",
+        "Our current promotions are listed here: [link to promotions]",
+        "You can find our latest offers here: [link to promotions]",
+        "We are offering a special discount on weekends. Check it out here: [link to promotions]",
+        "Enjoy our promotional deals. More details here: [link to promotions]"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "Restaurant address",
+        "What is your location?",
+        "How do I get to your restaurant?",
+        "Location",
+        "Can you share your address?",
+        "Where can I find you?",
+        "What is the address of your restaurant?",
+        "How can I reach your restaurant?",
+        "Share your location"
+      ],
+      "responses": [
+        "We are located at 123 Main Street, Cityville.",
+        "Our address is 123 Main Street, Cityville.",
+        "You can find us at 123 Main Street, Cityville.",
+        "Visit us at 123 Main Street, Cityville.",
+        "Our restaurant is located at 123 Main Street, Cityville.",
+        "We are at 123 Main Street, Cityville.",
+        "Find us at 123 Main Street, Cityville.",
+        "Our location is 123 Main Street, Cityville.",
+        "We are situated at 123 Main Street, Cityville.",
+        "You can visit us at 123 Main Street, Cityville."
+      ]
+    },
+    {
+      "tag": "parking",
+      "patterns": [
+        "Is there parking available?",
+        "Do you have parking?",
+        "Where can I park?",
+        "Parking options",
+        "Parking",
+        "Is parking provided?",
+        "Do you offer parking?",
+        "Where is the parking lot?",
+        "Can I park at the restaurant?",
+        "Is parking nearby?"
+      ],
+      "responses": [
+        "Yes, we have parking available for our customers.",
+        "We offer free parking for all our guests.",
+        "There is a parking lot next to the restaurant.",
+        "You can park in our designated parking area.",
+        "Parking is available behind the restaurant.",
+        "We provide parking facilities for our customers.",
+        "Parking is located adjacent to the restaurant.",
+        "We have ample parking space for our guests.",
+        "You can find parking next to the restaurant.",
+        "Parking is available at our location."
+      ]
+    },
+    {
+      "tag": "reservation_changes",
+      "patterns": [
+        "Can I change my reservation?",
+        "I need to modify my booking",
+        "How can I update my table reservation?",
+        "Change reservation details",
+        "I want to reschedule my reservation",
+        "Update my reservation",
+        "Can I change the time of my reservation?",
+        "Modify my table booking",
+        "I need to change the date of my reservation",
+        "Reschedule my table reservation"
+      ],
+      "responses": [
+        "Sure, what changes would you like to make to your reservation?",
+        "Please provide the new details for your reservation.",
+        "We can update your reservation. What changes would you like?",
+        "Your reservation details have been changed. Thank you!",
+        "We've rescheduled your reservation as requested.",
+        "Please let us know the new date and time for your reservation.",
+        "Your reservation has been updated successfully.",
+        "We have modified your reservation as per your request.",
+        "Thank you for updating your reservation with us.",
+        "Your reservation changes have been confirmed."
+      ]
+    },
+    {
+      "tag": "child_friendly",
+      "patterns": [
+        "Is the restaurant child-friendly?",
+        "Do you have high chairs?",
+        "Is there a kids' menu?",
+        "Do you provide activities for children?",
+        "Can I bring my kids?",
+        "Are there facilities for children?",
+        "Is your restaurant suitable for families?",
+        "Do you offer children's meals?",
+        "Are high chairs available?",
+        "What options do you have for kids?"
+      ],
+      "responses": [
+        "Yes, we are a child-friendly restaurant.",
+        "We have high chairs available for children.",
+        "We offer a kids' menu with a variety of options.",
+        "Children are welcome, and we have activities to keep them entertained.",
+        "You can definitely bring your kids.",
+        "Our facilities are suitable for children.",
+        "We offer meals specially designed for children.",
+        "High chairs are available upon request.",
+        "We provide a range of options for kids on our menu.",
+        "Our restaurant is family-friendly and child-friendly."
+      ]
+    },
+    {
+      "tag": "dietary_restrictions",
+      "patterns": [
+        "Do you cater to dietary restrictions?",
+        "I have a food allergy, can you accommodate?",
+        "Do you offer gluten-free options?",
+        "Are there any nut-free dishes?",
+        "Can you make adjustments for my diet?",
+        "I need a vegetarian meal",
+        "Do you have dairy-free options?",
+        "Are there vegan choices?",
+        "Can you accommodate food allergies?",
+        "What are your dietary options?"
+      ],
+      "responses": [
+        "Yes, we cater to various dietary restrictions. Please let us know your requirements.",
+        "We can accommodate food allergies. Please inform us about your specific needs.",
+        "We offer gluten-free options on our menu.",
+        "We have nut-free dishes available.",
+        "We can make adjustments to accommodate your diet. Please specify your needs.",
+        "We have vegetarian meals available.",
+        "Dairy-free options are available on our menu.",
+        "We offer a variety of vegan choices.",
+        "We can accommodate most food allergies. Please let us know your restrictions.",
+        "We have a range of dietary options to suit your needs."
+      ]
+    },
+    {
+      "tag": "takeout",
+      "patterns": [
+        "Do you offer takeout?",
+        "Can I order food to go?",
+        "Is takeout available?",
+        "Can I pick up my order?",
+        "Do you have takeaway options?",
+        "How do I order takeout?",
+        "Can I get my meal to go?",
+        "Do you offer pickup service?",
+        "Can I call in an order for takeout?",
+        "Is takeaway service provided?"
+      ],
+      "responses": [
+        "Yes, we offer takeout service.",
+        "You can order food to go.",
+        "Takeout is available.",
+        "You can pick up your order from our restaurant.",
+        "We provide takeaway options.",
+        "To order takeout, please visit our website or call us.",
+        "You can get your meal to go.",
+        "We offer a convenient pickup service.",
+        "Feel free to call in your order for takeout.",
+        "Our takeaway service is available for all menu items."
+      ]
+    },
+    {
+      "tag": "special_events",
+      "patterns": [
+        "Do you host special events?",
+        "Can I book a party at your restaurant?",
+        "Do you have event space?",
+        "Can I celebrate my birthday there?",
+        "Do you cater for large groups?",
+        "Can I book the restaurant for an event?",
+        "Do you offer event planning?",
+        "Can I reserve a private room?",
+        "Is there space for private parties?",
+        "Can I host a corporate event at your restaurant?"
+      ],
+      "responses": [
+        "Yes, we host special events.",
+        "You can book a party at our restaurant.",
+        "We have event space available.",
+        "You can celebrate your birthday at our restaurant.",
+        "We cater for large groups. Please contact us for more details.",
+        "You can book the restaurant for your event.",
+        "We offer event planning services.",
+        "Private rooms are available for reservation.",
+        "We have space for private parties.",
+        "You can host a corporate event at our restaurant."
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "Do you have free Wi-Fi?",
+        "Is Wi-Fi available?",
+        "Can I use the internet at your restaurant?",
+        "Do you offer Wi-Fi service?",
+        "Is there Wi-Fi for customers?",
+        "What's the Wi-Fi password?",
+        "Do you provide internet access?",
+        "Can I connect to Wi-Fi?",
+        "Is Wi-Fi free for guests?",
+        "Do you have wireless internet?"
+      ],
+      "responses": [
+        "Yes, we offer free Wi-Fi for our customers.",
+        "Wi-Fi is available at our restaurant.",
+        "You can use the internet at our restaurant.",
+        "We provide Wi-Fi service for our customers.",
+        "Wi-Fi is available for all guests.",
+        "The Wi-Fi password is provided upon request.",
+        "We offer internet access to our guests.",
+        "You can connect to our Wi-Fi.",
+        "Wi-Fi is free for all customers.",
+        "We have wireless internet available."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Do you take credit cards?",
+        "Can I pay with cash?",
+        "Do you accept mobile payments?",
+        "What forms of payment are accepted?",
+        "Is contactless payment available?",
+        "Can I use my debit card?",
+        "Do you accept online payments?",
+        "Are checks accepted?",
+        "Can I pay with a gift card?"
+      ],
+      "responses": [
+        "We accept various payment methods including credit cards, debit cards, and cash.",
+        "Yes, we take credit cards.",
+        "You can pay with cash.",
+        "We accept mobile payments such as Apple Pay and Google Pay.",
+        "We accept credit cards, debit cards, cash, and mobile payments.",
+        "Contactless payment is available.",
+        "You can use your debit card to pay.",
+        "We accept online payments through our website.",
+        "Unfortunately, we do not accept checks.",
+        "Yes, you can pay with a gift card."
+      ]
+    },
+    {
+      "tag": "pet_policy",
+      "patterns": [
+        "Do you allow pets?",
+        "Can I bring my dog?",
+        "Are pets permitted?",
+        "Is your restaurant pet-friendly?",
+        "Do you have outdoor seating for pets?",
+        "Can I bring my cat?",
+        "Are there any pet restrictions?",
+        "Can I dine with my pet?",
+        "Are service animals allowed?",
+        "Do you have a pet policy?"
+      ],
+      "responses": [
+        "We allow pets in our outdoor seating area.",
+        "You can bring your dog to our restaurant.",
+        "Pets are permitted in designated areas.",
+        "Our restaurant is pet-friendly.",
+        "We have outdoor seating available for guests with pets.",
+        "You can bring your cat to our outdoor seating area.",
+        "Please follow our pet policy when bringing pets.",
+        "You can dine with your pet in our outdoor seating area.",
+        "Service animals are allowed inside the restaurant.",
+        "Our pet policy allows pets in outdoor areas."
+      ]
+    },
+    {
+      "tag": "accessibility",
+      "patterns": [
+        "Is your restaurant accessible?",
+        "Do you have facilities for disabled guests?",
+        "Is there wheelchair access?",
+        "Do you provide accessibility options?",
+        "Are there accessible restrooms?",
+        "Can I bring a wheelchair?",
+        "Is the restaurant ADA compliant?",
+        "Are there ramps for wheelchairs?",
+        "Do you have accessible seating?",
+        "Are accessibility features available?"
+      ],
+      "responses": [
+        "Yes, our restaurant is accessible.",
+        "We have facilities for disabled guests.",
+        "There is wheelchair access available.",
+        "We provide various accessibility options.",
+        "We have accessible restrooms for our guests.",
+        "You can bring a wheelchair to our restaurant.",
+        "Our restaurant is ADA compliant.",
+        "We have ramps for wheelchair access.",
+        "Accessible seating is available.",
+        "We offer various accessibility features."
+      ]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": [
+        "Do you have a loyalty program?",
+        "Can I earn points for my purchase?",
+        "Is there a rewards program?",
+        "How does your loyalty program work?",
+        "Do you offer customer rewards?",
+        "Can I join the loyalty program?",
+        "What are the benefits of the loyalty program?",
+        "Do you have a membership program?",
+        "How can I sign up for the loyalty program?",
+        "What perks come with the loyalty program?"
+      ],
+      "responses": [
+        "Yes, we have a loyalty program.",
+        "You can earn points for every purchase.",
+        "We offer a rewards program for our loyal customers.",
+        "Our loyalty program allows you to earn points and redeem them for rewards.",
+        "We offer various customer rewards through our loyalty program.",
+        "You can join our loyalty program by signing up on our website.",
+        "The benefits of our loyalty program include discounts and special offers.",
+        "We have a membership program for our regular customers.",
+        "You can sign up for our loyalty program online or in the restaurant.",
+        "The loyalty program perks include exclusive deals and rewards."
+      ]
+    },
+    {
+      "tag": "chatbot_name",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "Do you have a name?",
+        "What's the name of this chatbot?",
+        "Can you tell me your name?",
+        "What's your name, bot?",
+        "Who am I talking to?",
+        "Identify yourself",
+        "What's your chatbot's name?",
+        "Tell me your name"
+      ],
+      "responses": [
+        "I am ChefAssist, your restaurant assistant chatbot.",
+        "You can call me ChefAssist, your dining assistant.",
+        "I am ChefAssist, The Culinary Haven's customer care bot.",
+        "I'm ChefAssist, your virtual dining assistant.",
+        "I'm ChefAssist, the restaurant chatbot here to help you.",
+        "I am ChefAssist, your friendly restaurant chatbot.",
+        "I'm ChefAssist, here to assist you with your dining needs.",
+        "My name is ChefAssist, The Culinary Haven's virtual assistant.",
+        "I'm ChefAssist, the virtual assistant for The Culinary Haven.",
+        "I am ChefAssist, your guide to The Culinary Haven's services."
+      ]
+    },
+    {
+      "tag": "about_restaurant",
+      "patterns": [
+        "Tell me about your restaurant",
+        "What's special about your restaurant?",
+        "Give me some information about the restaurant",
+        "What can you tell me about this place?",
+        "Describe your restaurant",
+        "What kind of restaurant is this?",
+        "Can you tell me about the restaurant?",
+        "What's the history of this restaurant?",
+        "What type of food do you serve?",
+        "What makes your restaurant unique?"
+      ],
+      "responses": [
+        "The Culinary Haven offers a wide variety of delicious dishes, including vegan and gluten-free options.",
+        "We are known for our cozy ambiance and excellent customer service.",
+        "The Culinary Haven has been serving customers for over 10 years with a focus on quality and taste.",
+        "We offer a diverse menu that includes both traditional and contemporary dishes.",
+        "Our chefs use fresh, locally-sourced ingredients to create amazing meals.",
+        "We pride ourselves on our friendly staff and welcoming atmosphere.",
+        "The Culinary Haven is a perfect place for family dinners, romantic dates, and special occasions.",
+        "We have a unique blend of flavors that you won't find anywhere else.",
+        "Our mission is to provide a delightful dining experience for all our guests.",
+        "We offer a range of beverages, including fine wines and craft beers, to complement your meal."
+      ]
+    }
+  ]
+}
