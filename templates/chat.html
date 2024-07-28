@@ -86,6 +86,7 @@
           const minute = new Date().getMinutes();
           const str_time = hour + ":" + minute;
           var rawText = $("#text").val();
+          $("#text").val('');
           var userHtml =
             '<div class="d-flex justify-content-end mb-4"><div class="msg_cotainer_send">' +
                 rawText +
